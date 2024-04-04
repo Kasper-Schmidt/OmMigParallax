@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;  
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
+}
+
+.wrapper {
+    height: 100vh;
+    max-width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    perspective: 10px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+    max-width: 100%;
+}
+
+.background {
+    transform: translateZ(-10px) scale(2);
+    width: 100%;
+    height: auto;
+}
+
+.planet {
+    position: absolute;
+    z-index: -1;
+    height: 15vh;
+    width: auto;
+    transform: translateX(600px) translateY(-250%) translateZ(-2px) scale(2); 
+}
+
+.galaxy {
+    position: absolute;
+    z-index: -1;
+    height: 15vh;
+    width: auto;
+    transform: translateX(-800px) translateY(-400%) translateZ(-8px) scale(1.5); 
+}
+
+.islandOne {
+    position: absolute;
+    z-index: -1;
+    height: 15vh;
+    width: auto;
+    transform: translateX(-400px) translateY(50px) translateZ(3px) scale(0.8); 
+}
+
+.islandTwo {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(-300px) translateY(200px) translateZ(2px) scale(1); 
+}
+
+.islandThree {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(240px) translateY(110px) translateZ(4px) scale(0.3); 
+}
+
+.islandFour {
+    position: absolute;
+    z-index: -1;
+    height: 15vh;
+    width: auto;
+    transform: translateX(-60px) translateY(80px) translateZ(5px) scale(0.3); 
+}
+
+.islandFive {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(185px) translateY(80px) translateZ(7px) scale(0.2); 
+}
+
+.spaceWalk {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(300px) translateY(200px) translateZ(0px) scale(3);
+}
+
+.bull {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(-360px) translateY(120px) translateZ(2px) scale(0.45);
+}
+
+.bear {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(-250px) translateY(120px) translateZ(2px) scale(0.35);
+}
+
+.lambo {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(-400px) translateY(10px) translateZ(3px) scale(0.25);
+}
+
+.watch {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: auto;
+    transform: translateX(240px) translateY(70px) translateZ(4px) scale(0.07); 
+}
+
+.dumbells {
+    position: absolute;
+    z-index: -1;
+    height: 15vh;
+    width: auto;
+    transform: translateX(-60px) translateY(60px) translateZ(5px) scale(0.25); 
+}
+
+.sports {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(185px) translateY(65px) translateZ(7px) scale(0.15); 
+}
+
+.fName {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform:  translateX(-130px) translateY(-30px) translateZ(-3px) scale(2); 
+    color: rgb(116, 174, 28); 
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+}
+
+.lName {
+    position: absolute;
+    z-index: -1;
+    height: 20%;
+    width: auto;
+    transform: translateX(10px) translateY(90px) translateZ(-4px) scale(3); 
+    color: greenyellow; 
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+
+}
+
+
+section {
+    background-color: white;
+    z-index: 2;
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.meBoxes {
+    width: 100vw;
+    height: auto;
+    display: flex;
+
+}
+
+.leftBoxMe {
+    width: 30vw;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 209, 101);
+
+}
+
+.pictureMe {
+    width: auto;
+    height: 90%;
+}
+
+.rightBoxMe {
+    width: 70vw;
+    height: 350px;
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.bodyTitle {
+    font-family: "Quicksand", sans-serif;
+    font-size: 70px;
+    color: rgb(24, 134, 185);
+    margin:0;
+
+}
+
+.bodyText {
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+}
+
+
+
+.forexBoxes {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.leftBoxForex {
+    width: 70vw;
+    height: 270px;
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.rightBoxForex {
+    width: 30vw;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 209, 101);
+
+}
+
+.bodyTitleForex {
+    font-family: "Quicksand", sans-serif;
+    font-size: 70px;
+    color: rgb(24, 134, 185);
+    margin:0;
+    text-align: right;
+}
+
+.bodyTextForex {
+    font-family: "Quicksand", sans-serif;
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+    text-align: right;
+
+}
+
+.forexPic {
+    width: 90%;
+    height: auto;
+}
+
+.leftBoxDumbells {
+    width: 30vw;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(147, 209, 101);
+}
+
+.rightBoxDumbells {
+    width: 70vw;
+    height: 250px;
+    background-color: white;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.dumbellsMe {
+    height: 80%;
+    width: auto;
+}
+
+.aventadorMe {
+    width: 90%;
+    height: auto;
+}
+
+.rummetMe {
+    width: auto;
+    height: 90%;
+}
+
+.apMe {
+    height: 90%;
+    width: auto;
+}
